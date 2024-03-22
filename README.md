@@ -6,8 +6,12 @@ This class implements a Linear Regression model using analytical methods for par
 Usage
 
 model = CustomAnalyticalLinearRegression(fit_intercept=True)
+
 model.fit(X, y)
+
 predictions = model.predict(X)
+
+
 Methods
 
 __init__(self, fit_intercept=True)
